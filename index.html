@@ -4,10 +4,16 @@
   <meta charset="utf-8">
   <title>Button Fantasy</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body>
-  <button onClick="createBoxes()">Create Boxes</button>
-  <button onClick="deleteBoxes()">Delete (One box at a time)</button>
+  <h1>10-Box Game</h1>
+  <p>Click "Add Boxes" to create boxes on the screen. You can even choose the color of each set! But you only get 10 total.</p>
+  <p>Delete them out one-by-one to keep playing.</p>
+  <p>Have fun!</p>
+  <button class="button-add" onClick="createBoxes()">Add Boxes</button>
+  <button class="button-delete" onClick="deleteBoxes()">Delete A Box</button>
+  <section id="boxes"></section>
   <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
